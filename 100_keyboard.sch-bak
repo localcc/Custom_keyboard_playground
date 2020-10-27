@@ -528,6 +528,4 @@ Wire Wire Line
 Wire Wire Line
 	8650 5550 8550 5550
 Connection ~ 8550 5550
-Text GLabel 8750 1800 1    50   Input ~ 0
-3.3V
 $EndSCHEMATC
