@@ -1266,8 +1266,8 @@
     )
   )
 
-  (gr_text "Debug Board v1\n" (at 65.532 42.418) (layer F.SilkS)
-    (effects (font (size 3 3) (thickness 0.3)))
+  (gr_text "Debug Board v1" (at 67.691 43.053) (layer F.SilkS)
+    (effects (font (size 3 3) (thickness 0.15)))
   )
   (gr_line (start 134.747 85.09) (end 42.037 85.09) (layer Edge.Cuts) (width 0.05) (tstamp 5F984B1B))
   (gr_text "(C) localcc & zlovantuzu" (at 52.832 83.439) (layer B.SilkS)
