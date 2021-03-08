@@ -1021,6 +1021,11 @@ Text Notes 10800 1800 0    50   ~ 0
 5V to 3.3V\n
 Wire Notes Line
 	450  1850 11250 1850
+<<<<<<< HEAD
+=======
+Wire Notes Line
+	11250 450  11250 1850
+>>>>>>> ab5b5692521d86d921ca06068b5f89b07f291bbf
 Text Notes 1850 3450 0    50   ~ 0
 Outputs\n
 Wire Wire Line
@@ -1042,6 +1047,7 @@ Wire Notes Line
 Wire Notes Line
 	2200 1850 2200 3500
 Wire Notes Line
+<<<<<<< HEAD
 	450  3500 6050 3500
 Text Notes 5900 3450 0    50   ~ 0
 UI\n
@@ -1053,4 +1059,11 @@ Wire Notes Line
 	6050 1850 6050 6500
 Text Notes 10650 6450 0    50   ~ 0
 Microcontroller\n
+=======
+	6050 3500 6050 1850
+Wire Notes Line
+	450  3500 6050 3500
+Text Notes 5900 3450 0    50   ~ 0
+UI\n
+>>>>>>> ab5b5692521d86d921ca06068b5f89b07f291bbf
 $EndSCHEMATC
