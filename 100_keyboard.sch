@@ -590,9 +590,9 @@ Text GLabel 10700 4700 2    50   Input ~ 0
 COL0
 Text GLabel 10700 4900 2    50   Input ~ 0
 ROW0
-Text GLabel 10700 4800 2    50   Input ~ 0
-ROW1
 Text GLabel 10700 4600 2    50   Input ~ 0
+ROW1
+Text GLabel 10700 4800 2    50   Input ~ 0
 COL1
 $Comp
 L power:GND #PWR0118
@@ -607,9 +607,9 @@ F 3 "" H 1450 2250 50  0001 C CNN
 $EndComp
 Text GLabel 1550 2250 3    50   Input ~ 0
 NRST
-Text GLabel 1650 2250 3    50   Input ~ 0
+Text GLabel 1850 2250 3    50   Input ~ 0
 SWDIO
-Text GLabel 1750 2250 3    50   Input ~ 0
+Text GLabel 1650 2250 3    50   Input ~ 0
 SWDCLK
 $Comp
 L Connector_Generic:Conn_01x03 J2
@@ -636,15 +636,15 @@ $EndComp
 $Comp
 L power:+5V #PWR0120
 U 1 1 6037FA38
-P 1400 2900
-F 0 "#PWR0120" H 1400 2750 50  0001 C CNN
-F 1 "+5V" H 1415 3073 50  0000 C CNN
-F 2 "" H 1400 2900 50  0001 C CNN
-F 3 "" H 1400 2900 50  0001 C CNN
-	1    1400 2900
+P 1500 2900
+F 0 "#PWR0120" H 1500 2750 50  0001 C CNN
+F 1 "+5V" H 1515 3073 50  0000 C CNN
+F 2 "" H 1500 2900 50  0001 C CNN
+F 3 "" H 1500 2900 50  0001 C CNN
+	1    1500 2900
 	-1   0    0    1   
 $EndComp
-Text GLabel 1500 2900 3    50   Input ~ 0
+Text GLabel 1400 2900 3    50   Input ~ 0
 LED_SPI
 $Comp
 L Connector:USB_B_Micro J3
@@ -963,7 +963,7 @@ F 3 "~" H 1650 2050 50  0001 C CNN
 	1    1650 2050
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1850 2250 3    50   Input ~ 0
+Text GLabel 1750 2250 3    50   Input ~ 0
 SWO
 Text GLabel 10700 4500 2    50   Input ~ 0
 SWO
