@@ -142,7 +142,6 @@ F 3 "~" V 3250 3250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3400 3150 3250 3150
-<<<<<<< HEAD
 Wire Wire Line
 	3050 2950 3050 2300
 Wire Wire Line
@@ -150,15 +149,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 3350 2700 3350
 Wire Wire Line
-=======
-Wire Wire Line
-	3050 2950 3050 2300
-Wire Wire Line
-	3600 2950 3600 2300
-Wire Wire Line
-	3250 3350 2700 3350
-Wire Wire Line
->>>>>>> ab5b5692521d86d921ca06068b5f89b07f291bbf
 	3250 2700 2700 2700
 Text GLabel 2600 3350 0    50   Input ~ 0
 ROW1
@@ -669,7 +659,6 @@ F 3 "~" H 1200 1050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	950  1500 1050 1500
-<<<<<<< HEAD
 Wire Wire Line
 	1050 1500 1500 1500
 Connection ~ 1050 1500
@@ -726,80 +715,15 @@ Connection ~ 10100 2200
 Wire Wire Line
 	10200 2200 10300 2200
 Wire Wire Line
-=======
-Wire Wire Line
-	1050 1500 1500 1500
-Connection ~ 1050 1500
-Connection ~ 1500 1500
-Wire Wire Line
-	1350 1300 1500 1300
-Wire Wire Line
-	1500 1300 1500 1500
-Wire Wire Line
-	1750 950  1350 950 
-Wire Wire Line
-	1350 950  1350 900 
-Connection ~ 1750 950 
-$Comp
-L power:+5V #PWR0117
-U 1 1 6021F999
-P 4350 2700
-F 0 "#PWR0117" H 4350 2550 50  0001 C CNN
-F 1 "+5V" V 4365 2828 50  0000 L CNN
-F 2 "" H 4350 2700 50  0001 C CNN
-F 3 "" H 4350 2700 50  0001 C CNN
-	1    4350 2700
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3950 3100 3950 2300
-$Comp
-L MCU_ST_STM32F1:STM32F103RBTx U?
-U 1 1 6049A54C
-P 10000 4100
-F 0 "U?" H 10750 2250 50  0000 C CNN
-F 1 "STM32F103RBTx" H 10750 2350 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 9400 2400 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 10000 4100 50  0001 C CNN
-	1    10000 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9900 2300 9900 2200
-Wire Wire Line
-	9900 2200 10000 2200
-Wire Wire Line
-	10000 2200 10000 2300
-Wire Wire Line
-	10000 2200 10100 2200
-Wire Wire Line
-	10100 2200 10100 2300
-Connection ~ 10000 2200
-Wire Wire Line
-	10100 2200 10200 2200
-Wire Wire Line
-	10200 2200 10200 2300
-Connection ~ 10100 2200
-Wire Wire Line
-	10200 2200 10300 2200
-Wire Wire Line
->>>>>>> ab5b5692521d86d921ca06068b5f89b07f291bbf
 	10300 2200 10300 2300
 Connection ~ 10200 2200
 Text GLabel 10300 2200 1    50   Input ~ 0
 3.3V
 $Comp
-<<<<<<< HEAD
 L Power_Protection:USBLC6-2SC6 U2
 U 1 1 604D922D
 P 3800 1200
 F 0 "U2" H 4100 1550 50  0000 C CNN
-=======
-L Power_Protection:USBLC6-2SC6 U?
-U 1 1 604D922D
-P 3800 1200
-F 0 "U?" H 4100 1550 50  0000 C CNN
->>>>>>> ab5b5692521d86d921ca06068b5f89b07f291bbf
 F 1 "USBLC6-2SC6" H 4200 850 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3800 700 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 4000 1550 50  0001 C CNN
@@ -815,17 +739,10 @@ USB_DP_CONN
 Text GLabel 4200 1100 2    50   Input ~ 0
 USB_DP
 $Comp
-<<<<<<< HEAD
 L power:+5V #PWR0103
 U 1 1 604EFA4D
 P 3800 800
 F 0 "#PWR0103" H 3800 650 50  0001 C CNN
-=======
-L power:+5V #PWR?
-U 1 1 604EFA4D
-P 3800 800
-F 0 "#PWR?" H 3800 650 50  0001 C CNN
->>>>>>> ab5b5692521d86d921ca06068b5f89b07f291bbf
 F 1 "+5V" H 3815 973 50  0000 C CNN
 F 2 "" H 3800 800 50  0001 C CNN
 F 3 "" H 3800 800 50  0001 C CNN
@@ -833,17 +750,10 @@ F 3 "" H 3800 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-<<<<<<< HEAD
 L power:GND #PWR0114
 U 1 1 604F3C50
 P 3800 1600
 F 0 "#PWR0114" H 3800 1350 50  0001 C CNN
-=======
-L power:GND #PWR?
-U 1 1 604F3C50
-P 3800 1600
-F 0 "#PWR?" H 3800 1350 50  0001 C CNN
->>>>>>> ab5b5692521d86d921ca06068b5f89b07f291bbf
 F 1 "GND" H 3805 1427 50  0000 C CNN
 F 2 "" H 3800 1600 50  0001 C CNN
 F 3 "" H 3800 1600 50  0001 C CNN
@@ -874,17 +784,10 @@ Wire Wire Line
 	10100 6000 10200 6000
 Connection ~ 10100 6000
 $Comp
-<<<<<<< HEAD
 L power:GND #PWR0121
 U 1 1 60510895
 P 10200 6200
 F 0 "#PWR0121" H 10200 5950 50  0001 C CNN
-=======
-L power:GND #PWR?
-U 1 1 60510895
-P 10200 6200
-F 0 "#PWR?" H 10200 5950 50  0001 C CNN
->>>>>>> ab5b5692521d86d921ca06068b5f89b07f291bbf
 F 1 "GND" H 10205 6027 50  0000 C CNN
 F 2 "" H 10200 6200 50  0001 C CNN
 F 3 "" H 10200 6200 50  0001 C CNN
@@ -899,37 +802,21 @@ Wire Wire Line
 Text GLabel 9300 2700 0    50   Input ~ 0
 BOOT0
 $Comp
-<<<<<<< HEAD
 L Connector_Generic:Conn_01x03 J1
 U 1 1 60521232
 P 800 2100
 F 0 "J1" V 800 1900 50  0000 R CNN
 F 1 "Conn_01x03" V 900 2300 50  0000 R CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 800 2100 50  0001 C CNN
-=======
-L Connector_Generic:Conn_01x03 J?
-U 1 1 60521232
-P 800 2100
-F 0 "J?" V 800 1900 50  0000 R CNN
-F 1 "Conn_01x03" V 900 2300 50  0000 R CNN
-F 2 "" H 800 2100 50  0001 C CNN
->>>>>>> ab5b5692521d86d921ca06068b5f89b07f291bbf
 F 3 "~" H 800 2100 50  0001 C CNN
 	1    800  2100
 	0    -1   -1   0   
 $EndComp
 $Comp
-<<<<<<< HEAD
 L power:GND #PWR0122
 U 1 1 6052251E
 P 700 2300
 F 0 "#PWR0122" H 700 2050 50  0001 C CNN
-=======
-L power:GND #PWR?
-U 1 1 6052251E
-P 700 2300
-F 0 "#PWR?" H 700 2050 50  0001 C CNN
->>>>>>> ab5b5692521d86d921ca06068b5f89b07f291bbf
 F 1 "GND" V 600 2250 50  0000 C CNN
 F 2 "" H 700 2300 50  0001 C CNN
 F 3 "" H 700 2300 50  0001 C CNN
@@ -937,17 +824,10 @@ F 3 "" H 700 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-<<<<<<< HEAD
 L power:+5V #PWR0123
 U 1 1 60522A33
 P 900 2300
 F 0 "#PWR0123" H 900 2150 50  0001 C CNN
-=======
-L power:+5V #PWR?
-U 1 1 60522A33
-P 900 2300
-F 0 "#PWR?" H 900 2150 50  0001 C CNN
->>>>>>> ab5b5692521d86d921ca06068b5f89b07f291bbf
 F 1 "+5V" V 800 2400 50  0000 C CNN
 F 2 "" H 900 2300 50  0001 C CNN
 F 3 "" H 900 2300 50  0001 C CNN
@@ -957,21 +837,12 @@ $EndComp
 Text GLabel 800  3000 3    50   Input ~ 0
 BOOT0
 $Comp
-<<<<<<< HEAD
 L Device:R_Small R2
 U 1 1 60527699
 P 800 2750
 F 0 "R2" V 604 2750 50  0000 C CNN
 F 1 "10K" V 695 2750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 800 2750 50  0001 C CNN
-=======
-L Device:R_Small R?
-U 1 1 60527699
-P 800 2750
-F 0 "R?" V 604 2750 50  0000 C CNN
-F 1 "10K" V 695 2750 50  0000 C CNN
-F 2 "" H 800 2750 50  0001 C CNN
->>>>>>> ab5b5692521d86d921ca06068b5f89b07f291bbf
 F 3 "~" H 800 2750 50  0001 C CNN
 	1    800  2750
 	1    0    0    -1  
@@ -981,21 +852,12 @@ Wire Wire Line
 Wire Wire Line
 	800  2650 800  2300
 $Comp
-<<<<<<< HEAD
 L Device:Crystal_GND24_Small Y1
 U 1 1 6055FE1B
 P 7700 2950
 F 0 "Y1" V 7654 3094 50  0000 L CNN
 F 1 "16MHz" V 7745 3094 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm" H 7700 2950 50  0001 C CNN
-=======
-L Device:Crystal_GND24_Small Y?
-U 1 1 6055FE1B
-P 7700 2950
-F 0 "Y?" V 7654 3094 50  0000 L CNN
-F 1 "16MHz" V 7745 3094 50  0000 L CNN
-F 2 "" H 7700 2950 50  0001 C CNN
->>>>>>> ab5b5692521d86d921ca06068b5f89b07f291bbf
 F 3 "~" H 7700 2950 50  0001 C CNN
 	1    7700 2950
 	0    1    1    0   
@@ -1005,28 +867,18 @@ HSE_IN
 Text GLabel 8050 2400 2    50   Input ~ 0
 HSE_OUT
 $Comp
-<<<<<<< HEAD
 L Device:R_Small R3
 U 1 1 60564BC0
 P 7950 2700
 F 0 "R3" H 8009 2746 50  0000 L CNN
 F 1 "47" H 8009 2655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 7950 2700 50  0001 C CNN
-=======
-L Device:R_Small R?
-U 1 1 60564BC0
-P 7950 2700
-F 0 "R?" H 8009 2746 50  0000 L CNN
-F 1 "47" H 8009 2655 50  0000 L CNN
-F 2 "" H 7950 2700 50  0001 C CNN
->>>>>>> ab5b5692521d86d921ca06068b5f89b07f291bbf
 F 3 "~" H 7950 2700 50  0001 C CNN
 	1    7950 2700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7950 2600 7950 2400
-<<<<<<< HEAD
 Wire Wire Line
 	7950 2400 8050 2400
 $Comp
@@ -1063,44 +915,6 @@ Wire Wire Line
 Wire Wire Line
 	7850 3100 7850 2800
 Wire Wire Line
-=======
-Wire Wire Line
-	7950 2400 8050 2400
-$Comp
-L Device:C_Small C?
-U 1 1 605725B5
-P 7950 3300
-F 0 "C?" H 8042 3346 50  0000 L CNN
-F 1 "12pF" H 8042 3255 50  0000 L CNN
-F 2 "" H 7950 3300 50  0001 C CNN
-F 3 "~" H 7950 3300 50  0001 C CNN
-	1    7950 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 605736BA
-P 7450 3300
-F 0 "C?" H 7542 3346 50  0000 L CNN
-F 1 "12pF" H 7542 3255 50  0000 L CNN
-F 2 "" H 7450 3300 50  0001 C CNN
-F 3 "~" H 7450 3300 50  0001 C CNN
-	1    7450 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7700 3400 7450 3400
-Wire Wire Line
-	7700 3400 7950 3400
-Connection ~ 7700 3400
-Wire Wire Line
-	7700 3050 7700 3100
-Wire Wire Line
-	7700 3100 7850 3100
-Wire Wire Line
-	7850 3100 7850 2800
-Wire Wire Line
->>>>>>> ab5b5692521d86d921ca06068b5f89b07f291bbf
 	7850 2800 7700 2800
 Wire Wire Line
 	7700 2800 7700 2850
@@ -1108,17 +922,10 @@ Connection ~ 7700 3100
 Wire Wire Line
 	7700 3100 7700 3400
 $Comp
-<<<<<<< HEAD
 L power:GND #PWR0124
 U 1 1 6058D128
 P 7700 3400
 F 0 "#PWR0124" H 7700 3150 50  0001 C CNN
-=======
-L power:GND #PWR?
-U 1 1 6058D128
-P 7700 3400
-F 0 "#PWR?" H 7700 3150 50  0001 C CNN
->>>>>>> ab5b5692521d86d921ca06068b5f89b07f291bbf
 F 1 "GND" H 7705 3227 50  0000 C CNN
 F 2 "" H 7700 3400 50  0001 C CNN
 F 3 "" H 7700 3400 50  0001 C CNN
@@ -1146,21 +953,12 @@ Wire Wire Line
 	7450 2300 7450 2950
 Connection ~ 7450 2950
 $Comp
-<<<<<<< HEAD
 L Connector_Generic:Conn_01x05 J4
 U 1 1 605BBA16
 P 1650 2050
 F 0 "J4" V 1650 1750 50  0000 R CNN
 F 1 "Conn_01x05" V 1750 2250 50  0000 R CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical" H 1650 2050 50  0001 C CNN
-=======
-L Connector_Generic:Conn_01x05 J?
-U 1 1 605BBA16
-P 1650 2050
-F 0 "J?" V 1650 1750 50  0000 R CNN
-F 1 "Conn_01x05" V 1750 2250 50  0000 R CNN
-F 2 "" H 1650 2050 50  0001 C CNN
->>>>>>> ab5b5692521d86d921ca06068b5f89b07f291bbf
 F 3 "~" H 1650 2050 50  0001 C CNN
 	1    1650 2050
 	0    -1   -1   0   
